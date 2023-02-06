@@ -33,6 +33,7 @@ export default function AboutPage(){
                         <li className="underline font-bold decoration-primary flex gap-4 justify-between">SQL<RatingStars score="1.5"/></li>
                         <li className="underline font-bold decoration-primary flex gap-4 justify-between">MongoDB<RatingStars score="2"/></li>
                         <li className="underline font-bold decoration-primary flex gap-4 justify-between">Firebase<RatingStars score="3"/></li>
+                        <li className="underline font-bold decoration-primary flex gap-4 justify-between">Contentful<RatingStars score="3"/></li>
                     </ul>
                     <div>Picture of something goes here</div>
                 </div>

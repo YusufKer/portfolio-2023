@@ -3,10 +3,10 @@ import { useRef } from "react";
 export default function Carousel({heading}){
     const scrollRef = useRef();
     const scrollLeft = () =>{
-        scrollRef.current.scrollLeft -= 200
+        scrollRef.current.scrollLeft -= 200;
     }
     const scrollRight = () =>{
-        scrollRef.current.scrollLeft += 200
+        scrollRef.current.scrollLeft += 200;
     }
     return (
         <>  
