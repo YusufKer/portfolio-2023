@@ -7,11 +7,22 @@ function TogglersContextProvider({children}){
 
     const [showContactMenu, setShowContactMenu] = useState(false);
     const toggleShowContactMenu = () => {
-        setShowContactMenu( prevState => !prevState)
+        setShowContactMenu( prevState => !prevState);
+    }
+    const [showMobileMenu, setShowMobileMenu] = useState(false)
+    const toggleShowMobileMenu = () => {
+        setShowMobileMenu( prevState => !prevState);
+    }
+
+    const state = {
+        showContactMenu,
+        toggleShowContactMenu,
+        showMobileMenu,
+        toggleShowMobileMenu
     }
 
     return(
-        <Provider value={{showContactMenu,toggleShowContactMenu}}>
+        <Provider value={state}>
             {children}
         </Provider>
     )
