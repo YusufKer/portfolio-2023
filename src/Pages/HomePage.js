@@ -8,7 +8,7 @@ export default function HomePage(){
         <div id="home-page">
             <Banner/>
             <Intro/>
-            <Carousel heading="Some Projects I've worked on..."/>
+            <Carousel heading="Some technologies I've worked on..."/>
         </div>
     )
 }
