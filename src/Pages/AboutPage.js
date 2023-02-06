@@ -63,7 +63,7 @@ export default function AboutPage(){
                 </div>
 
                 <h2 className="txt-heading-2 text-secondary py-4 font-bold">Other...</h2>
-                <p className="txt-base pt-4">Here's some information that is not reall relevant to my career but who knows... Maybe you'd like to know what my hobbies and interests are.</p>
+                <p className="txt-base">Here's some information that is not reall relevant to my career but who knows... Maybe you'd like to know what my hobbies and interests are.</p>
             </div>
         </>
     )
