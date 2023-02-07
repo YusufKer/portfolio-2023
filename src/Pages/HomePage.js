@@ -1,3 +1,5 @@
+import AboutPage from "./AboutPage";
+
 import Banner from "../components/Banner";
 import Intro from "../components/Intro";
 import Carousel from "../components/Carousel";
@@ -9,6 +11,7 @@ export default function HomePage(){
             <Banner/>
             <Intro/>
             <Carousel heading="Some technologies I've worked on..."/>
+            <AboutPage/>
         </div>
     )
 }

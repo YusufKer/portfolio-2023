@@ -1,14 +1,8 @@
-import MnCLogo from "../resources/MnCLogo.png"
-
-import NavbarMobile from "../components/NavbarMobile";
 import RatingStars from "../components/RatingStars";
 
 export default function AboutPage(){
     return (
         <>
-            <div className="top-0 left-0 w-full bg-secondary">
-                <NavbarMobile/>
-            </div>
             <div className="container m-auto p-6 bg-[#ede9dd]/75">
                 {/* SKILLS */}
                 <h2 className="txt-heading-2 text-secondary font-bold py-4">Skills</h2>

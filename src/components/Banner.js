@@ -30,7 +30,7 @@ export default function Banner(){
                     </div>
                 </div>
             </div>
-            <div className={`${!showMobileMenu ? "opacity-0 pointer-events-none" : null} fixed top-0 left-0 w-full bg-secondary`}>
+            <div className={`${!showMobileMenu ? "opacity-0 pointer-events-none" : null} fixed top-0 left-0 w-full bg-secondary z-50`}>
                 <NavbarMobile/>
             </div>
         </>

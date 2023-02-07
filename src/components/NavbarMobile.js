@@ -21,7 +21,7 @@ export default function NavbarMobile(){
                 <ul className="grid gap-1 relative">
                     <a onClick={toggleShowMobileMenu} class="text-right font-bold absolute right-0 -top-6">x</a>
                     <li className="font-bold text-secondary border border-secondary p-4"><Link to="/">Home</Link></li>
-                    <li className="font-bold text-secondary border border-secondary p-4"><Link to="/about">About</Link></li>
+                    {/* <li className="font-bold text-secondary border border-secondary p-4"><Link to="/about">About</Link></li> */}
                     <li className="font-bold text-secondary border border-secondary p-4"><Link to="/blog">Blog</Link></li>
                     <li className="font-bold text-secondary border border-secondary p-4" onClick={toggleShowContactMenu}>Contact</li>
                 </ul>
