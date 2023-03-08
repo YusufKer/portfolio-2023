@@ -10,7 +10,7 @@ import sass from "../resources/logos/512px-Sass_Logo_Color.svg.png";
 import less from "../resources/logos/less_logo.png";
 import bootstrap from "../resources/logos/Bootstrap_logo.svg.png";
 import tailwind from "../resources/logos/Tailwind_CSS_Logo.svg.png";
-import materialize from "../resources/logos/materialize.jpg";
+// import materialize from "../resources/logos/materialize.jpg";
 import javascript from "../resources/logos/javascript-39417.png";
 import jquery from "../resources/logos/282806_jquery_logo_icon.png";
 import react from "../resources/logos/1174949_js_react js_logo_react_react native_icon.png";
@@ -23,7 +23,7 @@ import git from "../resources/logos/512px-Git-logo.png";
 import mysql from "../resources/logos/logo-mysql-26300.png";
 import mongodb from "../resources/logos/MongoDB_Logo.svg.png";
 import firebase from "../resources/logos/512px-Firebase_Logo.svg.png";
-import contentful from "../resources/logos/contentful.jpeg";
+// import contentful from "../resources/logos/contentful.jpeg";
 
 const logos = [
     html,
@@ -32,7 +32,6 @@ const logos = [
     less,
     bootstrap,
     tailwind,
-    materialize,
     javascript,
     jquery,
     react,
@@ -44,18 +43,17 @@ const logos = [
     git,
     mysql,
     mongodb,
-    firebase,
-    contentful
+    firebase
 ]
 
 
 export default function Carousel({heading}){
     const scrollRef = useRef();
     const scrollLeft = () =>{
-        scrollRef.current.scrollLeft -= 200;
+        scrollRef.current.scrollLeft -= 350;
     }
     const scrollRight = () =>{
-        scrollRef.current.scrollLeft += 200;
+        scrollRef.current.scrollLeft += 350;
     }
     return (
         <>  
@@ -63,8 +61,8 @@ export default function Carousel({heading}){
                 <h2 className="text-primary txt-heading-2 block text-center py-6 font-bold">{heading}</h2>
             </div>
             <div className="relative container m-auto px-6">
-                <div onClick={scrollLeft} class="hidden lg:block absolute top-1/2 left-0 -translate-y-1/2 w-8 h-8 z-50 rounded-full bg-primary"></div>
-                <div onClick={scrollRight} class="hidden lg:block absolute top-1/2 right-0 -translate-y-1/2 w-8 h-8 z-50 rounded-full bg-primary"></div>
+                <div onClick={scrollLeft} class="arrow_left hidden lg:block absolute top-1/2 left-0 -translate-y-1/2 w-8 h-8 z-50 rounded-full bg-primary cursor-pointer hover:opacity-70"></div>
+                <div onClick={scrollRight} class="arrow_right hidden lg:block absolute top-1/2 right-0 -translate-y-1/2 w-8 h-8 z-50 rounded-full bg-primary cursor-pointer hover:opacity-70"></div>
                 <div ref={scrollRef} className="shadow-x container m-auto hide-scrollbar py-6 scroll-smooth snap-x snap-mandatory">
                     <div className="flex gap-4 items-center justify-center w-max">
                         {logos.map(logo => 

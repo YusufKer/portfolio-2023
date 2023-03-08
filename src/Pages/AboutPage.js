@@ -34,26 +34,28 @@ export default function AboutPage(){
 
                 {/* WORK EXPERIENCE */}
                 <h2 className="txt-heading-2 text-secondary py-4 font-bold">Work Experience</h2>
-                <div className="bg-primary/60 p-4">
-                    <p className="text-secondary font-bold">M & C Saatchi Abel</p>
-                    <p className="text-secondary text-base pt-4">
-                        I started at M & C Saatchi Abel in 2020 as a developer intern. It was my first taste of Real dev work as I had previously only dont a few small jobs for some local businesses.
-                        It was here where I learned to code responsive Mailers using a framework called MJML and a tool called litmus to test them. 
-                        Coding Mailers made me aware of the frustrating technology limitations that come with catering for different browsers and email clients. 
-                        Sometimes solutions need to be creative and this is where I started honing the skill of thinking up creative solutions to difficult problems. 
-                    </p>
-                    <p className="text-secondary text-base pt-4">Contactable references are available on request</p>
-                </div>
-                <div className="bg-secondary/60 p-4">
-                    <p class="text-primary font-bold">Elemental Web Solutions</p>
-                    <p className="text-black text-base pt-4">
-                        I started at Elemental thinking that I was an experienced developer after my Internship... Boy was I wrong. It's here that I got to learn about attention to detail and following designs to the pixel.
-                        I was thrown into the deep end and I value the experience because I got to learn so much from devs who had years of experience, but also from devs who were closer to my level of experience. 
-                        The lesson being that anyone can teach you something that you didn't know so don't be suprised when lessons come from people younger than you.
-                        I also had the opportunity to learn Vue js and work on a large scale React project. In my short time at Elemental, I'd say that the growth was exponential.
-                        I suppose this is just a consequence of coding for atleast 8 hours everyday.  
-                    </p>
-                    <p className="text-black text-base pt-4">Contactable references are available on request</p>
+                <div className="grid sm:grid-cols-2">
+                    <div className="bg-primary/60 p-4">
+                        <p className="text-secondary font-bold">M & C Saatchi Abel</p>
+                        <p className="text-secondary text-base pt-4">
+                            I started at M & C Saatchi Abel in 2020 as a developer intern. It was my first taste of Real dev work as I had previously only dont a few small jobs for some local businesses.
+                            It was here where I learned to code responsive Mailers using a framework called MJML and a tool called litmus to test them. 
+                            Coding Mailers made me aware of the frustrating technology limitations that come with catering for different browsers and email clients. 
+                            Sometimes solutions need to be creative and this is where I started honing the skill of thinking up creative solutions to difficult problems. 
+                        </p>
+                        <p className="text-secondary text-base pt-4">Contactable references are available on request</p>
+                    </div>
+                    <div className="bg-secondary/60 p-4">
+                        <p class="text-primary font-bold">Elemental Web Solutions</p>
+                        <p className="text-black text-base pt-4">
+                            I started at Elemental thinking that I was an experienced developer after my Internship... Boy was I wrong. It's here that I got to learn about attention to detail and following designs to the pixel.
+                            I was thrown into the deep end and I value the experience because I got to learn so much from devs who had years of experience, but also from devs who were closer to my level of experience. 
+                            The lesson being that anyone can teach you something that you didn't know so don't be suprised when lessons come from people younger than you.
+                            I also had the opportunity to learn Vue js and work on a large scale React project. In my short time at Elemental, I'd say that the growth was exponential.
+                            I suppose this is just a consequence of coding for atleast 8 hours everyday.  
+                        </p>
+                        <p className="text-black text-base pt-4">Contactable references are available on request</p>
+                    </div>
                 </div>
 
                 <h2 className="txt-heading-2 text-secondary py-4 font-bold">Other...</h2>

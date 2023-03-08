@@ -125,3 +125,15 @@
 .checked {
   color:#cb812d
 }
+
+.arrow_left, .arrow_right{
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.arrow_left{
+  background-image:url("./resources/ico_arrow-left.png")
+}
+.arrow_right{
+  background-image:url("./resources/ico_arrow-right.png")
+}
